@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import PostList from './PostList'
 
 const Home = () => {
+  const { posts } = useSelector(state => state.posts)
 
   return (
     <div>

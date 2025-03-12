@@ -4,7 +4,6 @@ import { close } from '../lib/slices/dataSlice';
 
 const Modale = () => {
   const { selectedPost } = useSelector(state => state.posts)
-  console.log(selectedPost)
   const dispatch = useDispatch()
 
   const styles = {
